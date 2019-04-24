@@ -1,0 +1,140 @@
+body{
+    background-color: #2B2B2B;
+}
+
+#map{
+    margin-top: 2rem;
+    height: 80%;
+    border-radius: 13px;
+    }
+
+#legend {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid #000;
+    }
+
+#legend h3 {
+    margin-top: 0;
+    }
+
+#legend img {
+    vertical-align: middle;
+    }
+
+.Search{
+    position: absolute;
+    top:20px;
+    left: 0;
+    width: 95%;
+    padding: 2%;
+}
+
+.Search_class{
+    height:2.5px;
+}
+
+form{
+    position: relative;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.Search_bar {
+    border-radius: 13px;
+    border: none;
+    outline: none;
+    background-color: #191919;
+    width: 80%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    position: relative;
+}
+
+input[type=text]{
+    padding-left: 16px;
+    float: left;
+    width: 100%;
+    vertical-align: middle;
+    box-shadow: none;
+    color:#707070;
+    font-size: 17px;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+input[type=text]:focus{
+    border-color:#ff954f;
+    box-shadow: 0 0 8px 0 #ff954f;
+}
+
+form input[type=text]{
+    padding-left: 40px;
+}
+
+form{
+    position: relative;
+}
+
+form i{
+    position: absolute;
+    left: 0;
+    padding: 9px 16px;
+    color: #707070;
+    transition:.3s;
+}
+
+form input[type=text]:focus+i{
+    color:#ff954f; 
+}
+
+.block{
+    position: absolute;
+    z-index: 1000;
+    padding-top: 5%;
+    width:91%;
+}
+.welcome{
+    color: #D3D3D3;
+    font-size: 24px;
+    padding-left: 5%;
+}
+
+.logout{
+    float: right;
+}
+
+a{
+    color: white;
+}
+
+.bottom_nav{
+    bottom:0;
+    position: fixed;
+    height:4rem;
+    width:100%;
+    background-color: #212121;
+    left: 0;
+    opacity: 0.72;
+}
+
+.star{
+    width: 30px;
+    height: 30px;
+}
+
+.redirect{
+    width: 24%;
+    display: inline-block;
+    padding-top: .3rem;
+    text-align: center;
+}
+.title{
+    color:#FF9500;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}

@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Event_info</title>
+      <link rel="stylesheet" type="text/css" href="css/event.css">
+</head>
+<body>
+    <div class="title">
+        Syracuse University Women's Basketball vs. Niagara University Purple Eagles Womens Basketball
+    </div>
+    <div class = "note" style="background-color: white;box-shadow: 1px 1px 1px 1px grey;margin:5%;">
+        <div class="dark">Please note</div> 
+        Youth is for ages 12 and under. Limit 4 Youth Tickets per Adult Ticket.
+
+        Seniors are ages 60 and above.
+    </div>
+    <div class="content">
+        <div class="dark2">Event Info</div>
+        The Syracuse University Women's Basketball season includes ACC games against some of the top teams in the nation - including National Champion Notre Dame!
+
+        Purchase your tickets today and enjoy the unique college game atmosphere of the Carrier Dome!
+    </div>
+    <img src="https://media.ticketmaster.com/en-us/dam/a/ef0/a87b64bf-a6ef-4632-99a5-4a2e9f2a9ef0_92281_CUSTOM.jpg" style="padding: 5%; width:90%"/>
+    <div class="subtitle">
+        purchase ticket now!
+    </div>
+    <form method="POST" action="connect.php">
+        <input class="username" type="text" name="username" placeholder="name"><br><br>
+        <input class="email" type="password" name="email address" placeholder="email address"><br><br>
+        <select type="ticketnumber">
+            <option value="one">1</option>
+            <option value="two">2</option>
+            <option value="three">3</option>
+            <option value="four">4</option>
+            <option value="five">5</option>
+            <option value="six">6</option>
+            <option value="seven">7</option>
+            <option value="eight">8</option>
+            <option value="nine">9</option>
+        </select><br><br>
+        <input class="sub" type="submit" value="Submit">
+    </form>
+</body>
