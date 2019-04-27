@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+
+        <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Organizations</title>
+      <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+ 
+
+      <link rel="stylesheet" type="text/css" href="css/news.css">
+</head>
+
+<body>
+    <a href="submit.html" class="arrow"><span style="font-size: 2em; color: #f7891b;"><i class="fas fa-arrow-left"></i></span></a>
+    <div class= "picture"><img src="css/EECS.jpg" width="350" height="200" /></div>
+    <div class="title">EECS CASE COLLOQUIUM</div>
+    <div class= "time">April 01,2019,1:00PM - 2:00PM</div>
+    <div class= "place">4-201 CST</div>
+    <div class= "organization">Department of EE and CS</div>
+    <div class= "content">Abstract: A paradox may be defined as a true statement that seems inconsistent with common sense. A sociological paradox can be defined as one that concerns patterns of people and society. People find that it often works quite well when they extrapolate from knowledge of certain patters to expectations of others based upon assumptions that are not quite right. However, when those assumptions are systematically wrong, people may be very surprised by what they actually find. I will present a few very simple but important paradoxes that are surprising, AND have important consequences that it can be useful to understand. Specifically, I will consider the “Class Size Paradox”—how a university can have an average class size of 30, and yet its students experience an average class size of 80, and show that this is more than a curiosity.Understanding the underlying logic of this paradox helps us understand systematic variations of experiences of students across universities, and helps us reconsider policies that can improve the quality of student experience without expending any additional resources. Then, I will consider the “Class Size Paradox” that predicts and explains why it is inevitable that the large majority of people have friends with more friends than they have. And, consider why they shouldn’t feel so badly about that. And, consider how an understanding of the friendship paradox can help us find the superstars of social networks, and help us anticipate the spread of epidemics, among other things. Then I will confuse the issue a little by considering the Paradox of the Paradox of Friends, where it is possible for friends to have many more friends than people do, even when no one has any friends with more friends than they have. This gives me the chance to illustrate a “possible paradox” as distinct from a “necessary paradox.” It is necessary that friends have more friends than people do (on average), but it is possible (albeit unlikely) that no one might experience that. Finally I will explain how it is true that Washington, DC has a higher homicide rate than Syracuse, but everyone is safer from homicide in Washington, DC than they are in Syracuse.</div>
+   
+    <div class= "other">
+                <form method="POST" action="php/info.php">
+        <div class="info" style ="float:left; margin-right:10px;">
+
+        <div class="name"><input type = "text" class = "name" name = "name" placeholder="Name"></div>
+        
+        <div class="email"><input type = "text" class = "email" name = "email" placeholder="E-mail"></div>
+
+    </div>
+       <div class="updown" style ="float:left;">
+           <div><button id="1" class="up" style="font-size: 2em;margin: 0% 0rem 0% 1rem; color: #dee1e5;"onclick= "func(1);"><i class="far fa-thumbs-up" ></i></button></div>
+
+           <div><button id="2" class="down" style="font-size: 2em;margin: 30% 0rem 0% 1rem;color: #dee1e5;" onclick= "func(2);"><i class="far fa-thumbs-down"></i></button></div>
+                      <script src="js/updown.js" type="text/javascript"></script>
+       </div>
+    </div>
+    <input type="submit" value="Submit" class="submit"> <!--<input type="button" value="Submit" name="search" style = "margin: -42% 3rem 2% 3rem;height: 5%; border-radius: 10px; font-size: 2rem;font-weight: 500;">-->
+                </form>
+</body>
