@@ -27,13 +27,22 @@ header("location: signin.php");
         </div>
     </div>  
     <div class="session">
+        <script src="../js/map.js" type="text/javascript"></script>
         <div class="block">
             <b class="welcome" id="welcome">Welcome: <i><?php echo $login_session; ?></i></b>
             <b class="logout" id="logout"><a href="logout.php">Logout</a></b>
         </div>
+        <div class="filter">
+            <div class="spin" onclick="(new initMap()).activateFilter('spin');"><div class="content">Spin</div></div>
+            <div class="party" onclick="(new initMap()).activateFilter('party');"><div class="content">Party</div></div>
+            <div class="event" onclick="(new initMap()).activateFilter('event');"><div class="content">Event</div></div>
+            <div class="all" onclick="(new initMap()).activateFilter('all');"><div class="content">All</div></div>
+        </div>
+
         <div id="map"></div>
+
     </div>    
-    <script src="../js/map.js" type="text/javascript"></script>
+    
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmYUQs9_AjHK8HL7d_czeIbP3PPH5FCgg&callback=initMap"
     async defer></script>
         <div class="bottom_nav">
