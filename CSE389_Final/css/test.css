@@ -1,0 +1,125 @@
+body{
+    background-color:  #2B2B2B;
+}
+.title{
+    background-color: #2B2B2B;
+    height: 10%;
+    margin: 13% 1rem 0% 2rem;
+    border-radius: 10px;
+    color: #dee1e5;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.name1{
+    height: 10%;
+    margin: -8% 1rem 3% 1rem;
+    background-color: #03725e;
+    border-radius: 10px;
+    left: 0;
+    padding: 12px 10px;
+}
+.upper{
+    height:10%;
+    margin: 1% 0rem 6% 1rem;
+    color: #dee1e5;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.lower{
+        height:10%;
+    margin: 6% 0rem 0% 2rem;
+    color: #dee1e5;
+    font-size: 14px;
+    font-weight: 300;
+}
+.name2{
+        height: 10%;
+    margin: 3% 1rem 3% 1rem;
+    background-color: #725603;
+    border-radius: 10px;
+        left: 0;
+    padding: 12px 10px;
+}
+.name3{
+        height: 10%;
+    margin: 3% 1rem 3% 1rem;
+    background-color: #035384;
+    border-radius: 10px;
+        left: 0;
+    padding: 12px 10px;
+}
+.name4{
+        height: 10%;
+    margin: 3% 1rem 3% 1rem;
+    background-color: #d80963;
+    border-radius: 10px;
+        left: 0;
+    padding: 12px 10px;
+}
+.Search{
+    top:20px;
+    left: 0;
+    width: 95%;
+    padding: 2%;
+    
+}
+
+.Search_class{
+    height:2.5px;
+}
+
+form{
+    position: relative;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.Search_bar {
+    border-radius: 13px;
+    border: none;
+    outline: none;
+    background-color: #191919;
+    width: 80%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    position: relative;
+  
+}
+
+input[type=text]{
+    padding-left: 16px;
+    float: left;
+    width: 100%;
+    vertical-align: middle;
+    box-shadow: none;
+    color:#707070;
+    font-size: 17px;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+input[type=text]:focus{
+    border-color:#ff954f;
+    box-shadow: 0 0 8px 0 #ff954f;
+}
+
+form input[type=text]{
+    padding-left: 40px;
+}
+
+form{
+    position: relative;
+}
+
+form i{
+    position: absolute;
+    left: 0;
+    padding: 9px 16px;
+    color: #707070;
+    transition:.3s;
+}
+
+form input[type=text]:focus+i{
+    color:#ff954f; 
+}

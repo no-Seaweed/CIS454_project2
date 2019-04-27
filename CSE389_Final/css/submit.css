@@ -1,0 +1,15 @@
+body{
+    background-color:  #2B2B2B;
+}
+.arrow{
+    
+    padding:20px 20px 20px 10px;
+}
+.success{
+    
+  
+    margin: 7% 1rem -10% 1rem;
+    color: #dee1e5;
+    font-size: 2rem;
+    font-weight: 700;
+}
